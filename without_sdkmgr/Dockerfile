@@ -62,6 +62,14 @@ RUN rm ./android-build-tools.zip
 RUN rm ./android-licenses.zip
 
 
+## Adding a temp app for testing
+
+# COPY ./android-build ${PWD}/android-build
+# COPY certs/cacerts ${PWD}/etc/ssl/certs/java/
+# COPY certs/ca-bundle.crt ${PWD}/etc/ssl/certs/
+# COPY certs/ca-bundle.crt ${PWD}/etc/ssl/certs/ca-certificates.crt
+
+
 ## The Current directory structure of SDK in container
 # - opt/
 #    - android-sdk-linux/

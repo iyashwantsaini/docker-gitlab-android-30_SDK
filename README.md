@@ -1,4 +1,4 @@
-# android30
+# Android30
 Docker image with Android SDK 30 installed for compiling and testing Android Projects in CI
 
 ## Creation
